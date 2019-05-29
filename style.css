@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+header, section {
+    overflow-x: hidden;
+    font-family: var(--foont);
+}
+
+:root {
+    --foont: 'Montserrat', sans-serif;
+    --red: rgba(255, 0, 0, 1);
+    --opWhite1: rgba(255, 255, 255, 0.1);
+    --opWhite2: rgba(255, 255, 255, 0.4);
+}
+
+header {
+    font-family: var(--foont);
+    font-size: 0.8em;
+    margin-bottom: -50px;
+
+}
+
+.section1 {
+
+    background: black url("img/sec1_back.webp") no-repeat;
+    background-size: 100%;
+
+
+}
+
+.section1 .content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 55px 0 45px 0;
+}
+
+.section1 .content h1 {
+    font-size: 2.8rem;
+    padding-top: 19vmin;
+    letter-spacing: 0.2rem;
+
+}
+
+.section1 h1 img {
+    width: 1.2em;
+}
+
+.section1 hr {
+    background-color: var(--opWhite1);
+    height: 1px;
+    width: 15rem;
+}
+
+.section1 h2 {
+    padding-top: 5vmin;
+    letter-spacing: 0.1rem;
+}
+
+.section1 p {
+    font-size: 1.2rem;
+}
+
+.section1 .btn {
+    margin-top: 8vmin;
+
+}
+
+.section1 .lined {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 22vmin;
+}
+
+.section1 .lined:before {
+    display: inline-block;
+    margin: 0 20px 0.3em 0;
+    padding-top: 1px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: var(--opWhite2);
+    width: 10vmin;
+}
+
+.section1 .lined:after {
+    display: inline-block;
+    margin: 0 0 0.3em 20px;
+    height: 1px;
+    content: " ";
+    text-shadow: none;
+    background-color: var(--opWhite2);
+    width: 10vmin;
+}
+
+.section1 .providers img{
+    height: 30px;
+}
+.section1 .providers i{
+    font-size: 30px;
+}
